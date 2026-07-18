@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>গ্রাম বাংলার স্বাদ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#faf7f0;
+    color:#333;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:#ff9800;
+    color:white;
+    padding:14px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#2e7d32;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.contact{
+    text-align:center;
+    line-height:2;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:38px;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>গ্রাম বাংলার স্বাদ</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+<h2>গ্রাম বাংলার স্বাদ</h2>
+
+<p>Traditional Bengali Food With Pure Village Taste</p>
+
+<a href="#menu" class="btn">View Menu</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<p>
+গ্রাম বাংলার স্বাদ-এ আপনাকে স্বাগতম।  
+আমরা পরিবেশন করি খাঁটি দেশীয় ও ঐতিহ্যবাহী বাংলা খাবার।
+তাজা উপকরণ, ঘরোয়া রান্না এবং আন্তরিক সেবাই আমাদের পরিচয়।
+</p>
+
+</div>
+
+</section>
+
+<section id="menu">
+
+<h2 class="title">Popular Menu</h2>
+
+<div class="menu">
+
+<div class="card">
+<h3>ইলিশ ভাজা</h3>
+<p>৳৪৫০</p>
+</div>
+
+<div class="card">
+<h3>গরুর ভুনা</h3>
+<p>৳৩৫০</p>
+</div>
+
+<div class="card">
+<h3>দেশি মুরগি</h3>
+<p>৳৩২০</p>
+</div>
+
+<div class="card">
+<h3>ভর্তা প্ল্যাটার</h3>
+<p>৳১৮০</p>
+</div>
+
+<div class="card">
+<h3>খিচুড়ি</h3>
+<p>৳২০০</p>
+</div>
+
+<div class="card">
+<h3>পায়েস</h3>
+<p>৳১২০</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title">Food Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80">
+
+<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80">
+
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80">
+
+<img src="https://images.unsplash.com/photo-1604908176997-431a5a0f5a5f?auto=format&fit=crop&w=600&q=80">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact">
+
+<p><strong>📍 Address:</strong> Your Restaurant Address</p>
+North Side of Forjon Plaza, Zirani Bazar, 1349
+<p><strong>📞 Phone:</strong> +8801625537007</p>
+
+<p><strong>✉ Email:</strong>nnzahid80@gmail.com</p>
+
+<p><strong>🕘 Opening Hours:</strong> 8:00 AM – 12:00 PM</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 গ্রাম বাংলার স্বাদ | All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
